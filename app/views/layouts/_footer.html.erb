@@ -1,0 +1,22 @@
+<div class="row-fluid">
+	<div class="center span1">
+		<%= link_to image_tag("http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png",
+			:alt => "HTML5 Powered with CSS3 / Styling, and Semantics",
+			:title => "HTML5 Powered with CSS3 / Styling, and Semantics"),
+				"http://www.w3.org/html/logo/" %>
+	</div>
+	<div class="center span1">
+		<%= link_to image_tag("rails.png", alt:"Rails"), 'http://rubyonrails.org/' %>
+	</div>
+</div>
+<footer class="footer row">
+	<small>
+		Website design by Laurel Tree Computing LLC. © 2012 All Rights Reserved.
+	</small>
+	<nav>
+		<ul>
+			<li><%= link_to "About", about_path %></li>
+			<li><%= link_to "Contact", contact_path %></li>
+		</ul>
+	</nav>
+</footer>

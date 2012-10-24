@@ -1,0 +1,25 @@
+<div id='middle'>
+<div id='header'>
+	<%= image_tag 'Color Laurel Tree.svg', :mouseover => 'BW Laurel Tree.svg', :id => 'logo' %>
+	<div id='head1div'>
+		<h1 id='head1' class='resizable acontent'>Laurel Tree Computing LLC</h1>
+	</div>
+</div>
+<div id='underbody'>
+	<div>
+		<p id='thanks' class='acontent'>Thanks for coming</p>
+	</div>
+	<div>
+		<p class='info acontent'>Please feel free to drag any content on this page around and rearrange it.</p>
+		<p class='info acontent'>Each item can also be resized by pulling on corner triangle attached to each piece of content.</p>
+	</div>
+	<div>
+		<p id='email'>Email us for information regarding our services and software at <%= mail_to "info@laureltreecomputing.com",nil, :replace_at => '_at_', :replace_dot => '_dot_' %></p>
+	</div>
+</div>
+<div>
+	<%= link_to image_tag("http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png", :width => "87", 
+		:height => "34", :alt => "HTML5 Powered with CSS3 / Styling, and Semantics", :title => "HTML5 Powered with CSS3 / Styling, and Semantics"),
+		"http://www.w3.org/html/logo/" %>
+</div>
+</div>

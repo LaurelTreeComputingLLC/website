@@ -1,0 +1,36 @@
+<!-- <div id='container'><div id='progressbar'></div></div> -->
+<div id='middle' class="hero-unit center row">
+	<div id='header' class="span12">
+		<div class="center row-fluid">
+			<div class="span2">
+				<%= image_tag 'Color Laurel Tree.svg', :id => 'logo', :class => 'img-circle'%>
+			</div>
+			<div id='head1div' class="span6 offset1">
+				<h1 id='head1' class='page-header resizable acontent'>Laurel Tree Computing LLC</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row-fluid">
+	<div id='underbody' class="row hero-unit well well-small">
+		<div id='underbodydiv' class="span10 offset1">
+			<div class='center'>
+				<h2>News</h2>
+				<p class='lead acontent'>Welcome to our website!</p>
+			</div>
+			<div>
+				<p class='alert alert-info'><button type="button" class="close" data-dismiss="alert">×</button><strong>Info:</strong>This site is currently under maintenance and we apologize if something is broken.</p>
+				<p class='alert alert-info'><button type="button" class="close" data-dismiss="alert">×</button><strong>Info:</strong>If you find something wrong, send us an email and let us know what doesn't work for you.</p>
+			</div>
+			<div>
+				<h3>Our content isn't exactly static....</h3>
+				<p class='info acontent'>Please feel free to <strong>drag</strong> any content on this page around and <strong>rearrange</strong> it.</p>
+				<h4>Play Around.....Have Fun</h4>
+				<p class='info acontent'>Each item can also be <em class="text-info">resized</em> by <strong>pulling</strong> on corner triangle attached to each piece of content.</p>
+			</div>
+			<div id='contact'>
+				<p id='email'><small>Email us for information regarding our services and software at <%= mail_to "info@laureltreecomputing.com",nil, :replace_at => '_at_', :replace_dot => '_dot_' %></small></p>
+			</div>
+		</div>
+	</div>
+</div>
